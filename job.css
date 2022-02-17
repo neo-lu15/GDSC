@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.19%;
+}
+
+.logo {
+    padding-left: 30px;
+    left: 3.02%;
+    cursor: pointer;
+}
+
+.nav_link {
+    padding-right: 30px;
+    list-style: none;
+}
+
+.nav_link li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_link li a {
+    color: black;
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    text-decoration: none;
+}
+
+
+
+.tab a {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.45);
+    box-sizing: border-box;
+    border-radius: 100px;
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.65);
+    padding: 8px 16px;
+
+}
+
+
+
+.pointer {
+    position: flex;
+    width: 160px;
+    height: 113px;
+    left: 216px;
+    top: 922px;
+}
+
+.pointer a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 112px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    white-space: nowrap;
+    text-decoration: underline #C8E3EA;
+}
+
+.column {
+    display: flex;
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    width: 23.43%;
+    height: 17.19%;
+    /* Should be removed. Only for demonstration */
+}
+
+
+
+/* Clear floats after the columns */
+.row:after {
+
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    /* 5px rounded corners */
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+    border-radius: 5px 5px 0 0;
+}
+
+/* Create three equal columns that floats next to each other */
+
+.detail-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
+    gap: 1.108%;
+
+
+}
+
+.one {
+    border: solid black;
+}
+
+.one b {
+
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: normal;
+    color: black;
+    font-size: 18px;
+}
+
+.one li {
+    left: 234px;
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.two {
+    border: solid black;
+
+}
+
+.two b {
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: normal;
+    color: black;
+    font-size: 18px;
+}
+
+.two li {
+    left: 234px;
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10.46%;
+}
+
+.logo {
+
+    cursor: pointer;
+}
+
+.foot_link {
+    list-style: none;
+}
+
+.foot_link li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.foot_link li a {
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    text-decoration: none;
+    color: black;
+}

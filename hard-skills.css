@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+header {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.19%;
+}
+
+.logo {
+    padding-left: 30px;
+    left: 3.02%;
+    cursor: pointer;
+}
+
+.nav_link {
+    padding-right: 30px;
+    list-style: none;
+}
+
+.nav_link li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_link li a {
+    color: black;
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    min-height: 300px;
+}
+
+.visual {
+
+    background-color: white;
+    display: flex;
+}
+
+.visual h2 {
+    left: 179px;
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 112.5%;
+}
+
+.title {
+    width: 50%;
+}
+
+.content {
+    background-color: #E5E5E5;
+
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.soft-power {
+    width: 737px;
+    height: 64px;
+    left: 975px;
+    top: 602px;
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.hard-skills {
+    width: 737px;
+    height: 64px;
+    left: 975px;
+    top: 602px;
+    border: none;
+    background: rgba(200, 227, 234, 0.45);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.detail-container {
+    margin-left: 179px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1.108%;
+}
+
+.one {
+    margin-top: 48px;
+    border: none;
+    background-color: white;
+    width: 1562px;
+    height: 190px;
+    left: calc(50% - 1562px/2);
+}
+
+.one b {
+
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: normal;
+    color: black;
+    font-size: 18px;
+}
+
+.one li {
+    left: 234px;
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.two {
+    border: none;
+    background-color: white;
+    width: 1562px;
+
+
+}
+
+.two b {
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: normal;
+    color: black;
+    font-size: 18px;
+}
+
+.two li {
+    left: 234px;
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.three {
+    border: none;
+    background-color: white;
+    width: 1562px;
+
+}
+
+.three b {
+
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: normal;
+    color: black;
+    font-size: 18px;
+}
+
+.three li {
+    left: 234px;
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.four {
+    border: none;
+    background-color: white;
+    width: 1562px;
+
+}
+
+.four b {
+
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: normal;
+    color: black;
+    font-size: 18px;
+}
+
+.four li {
+    left: 234px;
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.five {
+    border: none;
+    background-color: white;
+    width: 1562px;
+
+}
+
+.five b {
+
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: normal;
+    color: black;
+    font-size: 18px;
+}
+
+.five li {
+    left: 234px;
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.six {
+    border: none;
+    background-color: white;
+    width: 1562px;
+
+}
+
+.six b {
+
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: normal;
+    color: black;
+    font-size: 18px;
+}
+
+.six li {
+    left: 234px;
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.seven {
+    border: none;
+    background-color: white;
+    width: 1562px;
+    margin-bottom: 278px;
+
+}
+
+.seven b {
+
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: normal;
+    color: black;
+    font-size: 18px;
+}
+
+.seven li {
+    left: 234px;
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: rgba(0, 0, 0, 0.45);
+}

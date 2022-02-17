@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap">
+    <title>首頁</title>
+
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("a").hover(function () {
+                document.getElementById("hov").innerHTML = "更多>>>";
+
+            }, function () {
+                document.getElementById("hov").innerHTML = "點我看更多 UI/UX 職位&rarr;";
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+    <!--header-->
+
+    <header>
+
+        <img class="logo" src="LOGO/LOGO_2.png" width="86px" height="33px">
+        <nav>
+            <ul class="nav_link">
+                <li><a href="home-page.html">首頁</a></li>
+                <li><a href="self-study.html">自學資源</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!--pointer-->
+
+    <div class="pointer">
+        <div class="hover">
+            <a href="job.html"><span id="hov">點我看更多 UI/UX 職位&rarr;</span></a>
+
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div></div>
+        <div></div>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <img src="14個職位卡片/UX Researcher 使用者體驗.svg" alt="Avatar"
+                    style="width: 410px; height: 289px; left: calc(50% - 410px/2); top: 33px;">
+                <div class="container">
+                    <h4><b>UX Researcher</b></h4>
+                    <p>user experience designer</p>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <img src="14個職位卡片/Web_App UI Designer.svg" alt="Avatar"
+                    style="width: 410px; height: 289px; left: calc(50% - 410px/2); top: 33px;">
+                <div class="container">
+                    <h4><b>Web/App UI Designer</b></h4>
+                    <p>user interface designer</p>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <img src="14個職位卡片/Web_App PM.svg" alt="Avatar"
+                    style="width: 410px; height: 289px; left: calc(50% - 410px/2); top: 33px;">
+                <div class="container">
+                    <h4><b>Web/App PM</b></h4>
+                    <p>product management</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--pointer-->
+    <div class="pointer">
+        <a href="#">
+            更多 UI/UX 技能&rarr;
+        </a>
+    </div>
+
+    <div class="detail-container">
+        <div class="one"><b>提案與溝通技巧 Presentation & Communication Skills</b>
+            <ul>
+                <li>故事力 Storyteller</li>
+                <li>提案能力</li>
+                <li>跨部門溝通(含PM / Designer /Engineer)</li>
+            </ul>
+        </div>
+        <div class="two"><b>訂定設計規範 Design Guidelines</b>
+            <ul>
+                <li>設計準則 Design Principles</li>
+                <li>視覺系統 Visual System</li>
+                <li>完整產品線設計規範 Design Guidelines</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!--footer-->
+    <div class="footer_container">
+        <footer>
+            <img class="logo" src="LOGO/LOGO_2.png" width="86px" height="33px" style="float: left;">
+            <ul class="left-footer">
+                <p style="float: right; color: black; ">我們是一群對UIUX有興趣的大學生，致力於實際需求與UIUX的結合，減少初學者的學習障礙。</p>
+            </ul>
+            <ul class="right- footer">
+                <table>
+                    <tr>
+                        <th>學習指南</th>
+                        <th>自學資源</th>
+                        <th>About</th>
+                    </tr>
+                    <tr>
+                        <td>依職業</td>
+                        <td>靈感啟發</td>
+                        <td>About us</td>
+                    </tr>
+                    <tr>
+                        <td>依技能</td>
+                        <td>作品集平台</td>
+                        <td>About this web</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>網路專欄</td>
+                        <td></td>
+                    </tr>
+                </table>
+            </ul>
+        </footer>
+        <hr />
+    </div>
+</body>
+
+</html>
