@@ -42,10 +42,9 @@ header {
     text-decoration: none;
 }
 
-tab {
-    width: 1738px;
-    height: 64px;
-    margin-top: 24px;
+.tab {
+
+    padding-top: 24px;
     padding-left: 182px;
 }
 
@@ -97,9 +96,6 @@ tab {
     align-items: center;
     color: rgba(0, 0, 0, 0.45);
     flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 12px 0px;
 }
 
 .job_title h3 {
