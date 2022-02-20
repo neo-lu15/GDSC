@@ -14,12 +14,11 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 3.19%;
+    height: 72px;
 }
 
 .logo {
     padding-left: 30px;
-    left: 3.02%;
     cursor: pointer;
 }
 
@@ -43,8 +42,10 @@ header {
     text-decoration: none;
 }
 
-tab {
-    top: 3.19%;
+.tab {
+
+    padding-top: 24px;
+    padding-left: 182px;
 }
 
 
@@ -64,70 +65,45 @@ tab {
 }
 
 .content {
-    width: 1554px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 48px;
-
-    position: absolute;
-    height: 1998px;
-    left: 182px;
-    right: 184px;
-    top: 216px;
-
+    margin-left: 182px;
+    margin-right: 182px;
+    margin-top: 59px;
     background: #FFFFFF;
     border-radius: 8px;
 
 }
 
-.job_title a {
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: -10%;
-    font-family: Noto Sans TC;
+#cat {
+    padding-top: 72px;
+    padding-left: 72px;
+    font-family: "Noto Sans TC";
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 140%;
     display: flex;
     align-items: center;
     color: rgba(0, 0, 0, 0.45);
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 12px 0px;
 }
 
-.job_title h3 {
-
-    width: 391px;
-    height: 36px;
-    left: 24px;
-    top: 48px;
-    font-family: Roboto;
+#Title {
+    padding-top: 4px;
+    padding-left: 72px;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
-    line-height: 112px;
-    display: flex;
-    align-items: center;
+
     color: #47A2B8;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin: 4px 0px;
+
 }
 
-.img {
+.pic {
     width: 510px;
     height: 359px;
-    left: calc(50% - 510px/2 - 450px);
-    top: 24px;
-    flex-grow: 0;
-    margin: 0px 64px;
+
 }
+
+.description {}
 
 
 .description h4 {
@@ -176,10 +152,6 @@ tab {
 }
 
 .soft_power a {
-    width: 74px;
-    height: 43px;
-    left: 319.75px;
-    top: 12px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -408,6 +380,128 @@ tab {
 
 
 .hard3 ul li {
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: rgba(0, 0, 0, 0.45);
+
+}
+
+
+
+.soft4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 89px rgba(0, 0, 0, 0.04);
+    border-radius: 4px
+}
+
+.soft4 a {
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 112.5%;
+    align-items: center;
+    color: #000000;
+}
+
+
+.soft4 ul li {
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: rgba(0, 0, 0, 0.45);
+
+}
+
+.hard4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 89px rgba(0, 0, 0, 0.04);
+    border-radius: 4px
+}
+
+.hard4 a {
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 112.5%;
+    align-items: center;
+    color: #000000;
+}
+
+
+.hard4 ul li {
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: rgba(0, 0, 0, 0.45);
+
+}
+
+.hard5 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 89px rgba(0, 0, 0, 0.04);
+    border-radius: 4px
+}
+
+.hard5 a {
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 112.5%;
+    align-items: center;
+    color: #000000;
+}
+
+
+.hard5 ul li {
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: rgba(0, 0, 0, 0.45);
+
+}
+
+.hard6 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 89px rgba(0, 0, 0, 0.04);
+    border-radius: 4px
+}
+
+.hard6 a {
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 112.5%;
+    align-items: center;
+    color: #000000;
+}
+
+
+.hard6 ul li {
     font-family: Noto Sans TC;
     font-style: normal;
     font-weight: normal;
