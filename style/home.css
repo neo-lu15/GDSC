@@ -1,11 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC &display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 body {
     margin: 0;
-    width: 100%;
-    height: 100%;
+    /* width: 100%; */
+    height: 2256px;
+    overflow: scroll;
 }
+
 
 header {
     background-color: #FFFFFF;
@@ -18,7 +20,6 @@ header {
 
 .logo {
     padding-left: 30px;
-    left: 3.02%;
     cursor: pointer;
 }
 
@@ -29,8 +30,9 @@ header {
 
 .nav_link li {
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0 20px;
 }
+
 
 .nav_link li a {
     color: black;
@@ -42,60 +44,72 @@ header {
     text-decoration: none;
 }
 
+.container1 {
+    background-color: #FFFFFF;
+    height: 798px;
+}
 
-
-.tab a {
-    background: #FFFFFF;
-    border: 1px solid rgba(0, 0, 0, 0.45);
-    box-sizing: border-box;
-    border-radius: 100px;
+.title h2 {
+    padding-left: 215px;
+    padding-top: 254px;
     font-family: Noto Sans TC;
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 64px;
     line-height: 140%;
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0.65);
-    padding: 8px 16px;
+    color: #0D5060;
+    white-space: nowrap;
+    /* 不換行 */
+}
+
+.main {
+    background-color: #E5E5E5;
+    height: 1450px;
 
 }
 
+.main_container {
+    padding-left: 216px;
+    padding-right: 216px;
 
+}
 
 .pointer {
-    position: flex;
+    padding-top: 74px;
     width: 160px;
     height: 113px;
-    left: 216px;
-    top: 922px;
+    line-height: 113px;
+    display: flex;
+    align-items: center;
 }
 
 .pointer a {
+    width: 160px;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
-    line-height: 112px;
-    display: flex;
-    align-items: center;
     color: #000000;
     white-space: nowrap;
     text-decoration: underline #C8E3EA;
 }
 
+
 .column {
+
     display: flex;
+    flex-grow: 1;
     float: left;
-    width: 33.33%;
-    padding: 10px;
-    width: 23.43%;
-    height: 17.19%;
-    /* Should be removed. Only for demonstration */
+    padding: 30px;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
 }
 
 
-
-/* Clear floats after the columns */
 .row:after {
 
     content: "";
@@ -104,47 +118,75 @@ header {
 }
 
 .card {
-    /* Add shadows to create the "card" effect */
+    background-color: #FFFFFF;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
-
+    width: 100%;
+    position: relative;
 }
 
-/* On mouse-over, add a deeper shadow */
+
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* Add some padding inside the card container */
 .container {
     padding: 2px 16px;
+    height: 20%;
+    z-index: 10;
+}
+
+.column>.card>.container-unhover {
+    display: block;
+    z-index: 0;
+    padding: 2px 16px;
+    height: 20%;
+}
+
+.column>.card>.container-hover {
+    display: none;
+}
+
+.column:hover>.card>.container-unhover {
+    display: none;
+    z-index: 0;
+}
+
+.column:hover>.card>.container-hover {
+    display: block;
+    z-index: 10;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 1);
+    bottom: 0;
+    padding: 2px 16px;
+
 }
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     border-radius: 5px;
-    /* 5px rounded corners */
 }
 
-/* Add rounded corners to the top left and the top right corner of the image */
 img {
     border-radius: 5px 5px 0 0;
+    z-index: 0;
 }
 
-/* Create three equal columns that floats next to each other */
 
 .detail-container {
+    margin-top: 56px;
     display: grid;
     grid-template-rows: 1fr 1fr;
-
-    gap: 1.108%;
-
-
+    height: 317px;
+    row-gap: 25px;
 }
 
 .one {
-    border: solid black;
+    background-color: #FFFFFF;
+    border: none;
+    box-shadow: 0 4px 40px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
 }
 
 .one b {
@@ -167,7 +209,10 @@ img {
 }
 
 .two {
-    border: solid black;
+    background-color: #FFFFFF;
+    border: none;
+    box-shadow: 0 4px 40px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
 
 }
 
@@ -190,39 +235,63 @@ img {
 }
 
 .footer-container {
-    display: flex;
-    justify-content: flex-end;
+    margin-left: 180px;
+    margin-right: 180px;
+    height: 236px;
 }
 
 footer {
     background-color: #FFFFFF;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10.46%;
 }
 
-.logo {
 
+.logo2 {
+    margin-top: 57px;
     cursor: pointer;
 }
 
-.foot_link {
-    list-style: none;
+
+.left_footer {
+    margin-top: 57px;
+    height: 101px;
+
 }
 
-.foot_link li {
-    display: inline-block;
-    padding: 0px 20px;
+.left_footer p {
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
 }
 
-.foot_link li a {
+.right_footer th a {
+    margin-bottom: 24px;
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 112.5%;
+    display: flex;
+
+}
+
+
+.right_footer {
+    margin-top: 57px;
+}
+
+.right_footer td a {
+    margin-bottom: 12px;
     font-family: "Noto Sans TC";
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    line-height: 140%;
+    font-size: 16px;
+    line-height: 112.5%;
     text-decoration: none;
     color: black;
 }

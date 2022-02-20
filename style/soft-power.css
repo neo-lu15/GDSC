@@ -3,8 +3,10 @@
 
 body {
     margin: 0;
-    width: 100%;
-    height: 100%;
+    /* width: 100%; */
+    /* height: 100%; */
+    height: 1959px;
+    overflow: scroll;
 }
 
 
@@ -45,7 +47,6 @@ header {
 }
 
 .container {
-    width: 1920px;
     height: 438px;
 }
 
@@ -68,65 +69,74 @@ header {
 }
 
 .content {
+    margin-top: 103px;
     background-color: #E5E5E5;
+    padding-left: 179px;
+    padding-right: 179px;
 }
 
 
 
 .button {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    padding-top: 103px;
+    padding-bottom: 48px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 59px;
     align-items: center;
-    border: none;
-    padding: 15px 32px;
-    text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
-    row-gap: 59px;
     cursor: pointer;
 }
 
 .soft-power {
-    margin-top: 92px;
-    margin-left: 179px;
-    row-gap: 59px;
-    width: 737px;
+    text-align: center;
     height: 64px;
     border: none;
     background: rgba(200, 227, 234, 0.45);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-bottom: 3px solid #47A2B8;
+}
+
+.soft-power a {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #000000;
 }
 
 .hard-skills {
-    margin-top: 92px;
-    width: 737px;
+    text-align: center;
     height: 64px;
-    left: 975px;
-    top: 602px;
     border: none;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-bottom: 3px solid #47A2B8;
 }
 
+.hard-skills a {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #000000;
+}
 
 
 
 .detail-container {
-    margin-left: 179px;
+
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 1.108%;
+    row-gap: 48px;
+    padding-bottom: 407px;
 }
 
 .one {
     border: none;
     background-color: white;
-    width: 1562px;
     height: 146px;
-    left: calc(50% - 1562px/2);
-    top: 0px;
 }
 
 .one b {
@@ -151,11 +161,7 @@ header {
 .two {
     border: none;
     background-color: white;
-    width: 1562px;
     height: 146px;
-    left: calc(50% - 1562px/2);
-    top: 194px;
-
 
 }
 
@@ -180,10 +186,7 @@ header {
 .three {
     border: none;
     background-color: white;
-    width: 1562px;
     height: 212px;
-    left: calc(50% - 1562px/2);
-    top: 388px;
 }
 
 .three b {
@@ -197,10 +200,76 @@ header {
 
 .three li {
     left: 234px;
-    font-family: Noto Sans TC;
+    font-family: "Noto Sans TC";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 140%;
     color: rgba(0, 0, 0, 0.45);
+}
+
+
+.footer-container {
+    height: 236px;
+}
+
+footer {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.logo2 {
+    margin-top: 57px;
+    padding-left: 180px;
+    cursor: pointer;
+}
+
+
+.left_footer {
+    margin-top: 57px;
+    height: 101px;
+
+}
+
+.left_footer p {
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+
+    display: flex;
+    align-items: center;
+
+}
+
+.right_footer th a {
+    margin-bottom: 24px;
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 112.5%;
+    display: flex;
+
+}
+
+
+.right_footer {
+    margin-top: 57px;
+    width: 800px;
+    right: 100px;
+}
+
+.right_footer td a {
+    margin-bottom: 12px;
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 112.5%;
+    text-decoration: none;
+    color: black;
 }

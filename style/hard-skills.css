@@ -3,8 +3,10 @@
 
 body {
     margin: 0;
-    width: 100%;
-    height: 100%;
+    /* width: 100%; */
+    /* height: 100%; */
+    height: 2891px;
+    overflow: scroll;
 }
 
 
@@ -45,8 +47,7 @@ header {
 }
 
 .container {
-    max-width: 1140px;
-    min-height: 300px;
+    height: 438px;
 }
 
 .visual {
@@ -56,8 +57,9 @@ header {
 }
 
 .visual h2 {
-    left: 179px;
-    font-family: Noto Sans TC;
+    padding-left: 179px;
+    padding-top: 128px;
+    font-family: "Noto Sans TC";
     font-style: normal;
     font-weight: bold;
     font-size: 64px;
@@ -69,59 +71,71 @@ header {
 }
 
 .content {
+    margin-top: 103px;
     background-color: #E5E5E5;
-
+    padding-left: 179px;
+    padding-right: 179px;
 }
 
 .button {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    padding-top: 103px;
+    padding-bottom: 48px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 59px;
     align-items: center;
-    border: none;
-    padding: 15px 32px;
-    text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
     cursor: pointer;
 }
 
 .soft-power {
-    width: 737px;
+    text-align: center;
     height: 64px;
-    left: 975px;
-    top: 602px;
     border: none;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-bottom: 3px solid #47A2B8;
+}
+
+.soft-power a {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #000000;
 }
 
 .hard-skills {
-    width: 737px;
+    text-align: center;
     height: 64px;
-    left: 975px;
-    top: 602px;
     border: none;
+    border-bottom: 3px solid #47A2B8;
     background: rgba(200, 227, 234, 0.45);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.hard-skills a {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #000000;
+}
+
 .detail-container {
-    margin-left: 179px;
+
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 1.108%;
+    row-gap: 48px;
+    padding-bottom: 278px;
 }
 
 .one {
-    margin-top: 48px;
+
     border: none;
     background-color: white;
-    width: 1562px;
     height: 190px;
-    left: calc(50% - 1562px/2);
 }
 
 .one b {
@@ -135,7 +149,7 @@ header {
 
 .one li {
     left: 234px;
-    font-family: Noto Sans TC;
+    font-family: "Noto Sans TC";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -146,9 +160,7 @@ header {
 .two {
     border: none;
     background-color: white;
-    width: 1562px;
-
-
+    height: 146px;
 }
 
 .two b {
@@ -161,7 +173,7 @@ header {
 
 .two li {
     left: 234px;
-    font-family: Noto Sans TC;
+    font-family: "Noto Sans TC";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -172,8 +184,7 @@ header {
 .three {
     border: none;
     background-color: white;
-    width: 1562px;
-
+    height: 146px;
 }
 
 .three b {
@@ -187,7 +198,7 @@ header {
 
 .three li {
     left: 234px;
-    font-family: Noto Sans TC;
+    font-family: "Noto Sans TC";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -198,7 +209,7 @@ header {
 .four {
     border: none;
     background-color: white;
-    width: 1562px;
+    height: 124px;
 
 }
 
@@ -213,7 +224,7 @@ header {
 
 .four li {
     left: 234px;
-    font-family: Noto Sans TC;
+    font-family: "Noto Sans TC";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -224,7 +235,7 @@ header {
 .five {
     border: none;
     background-color: white;
-    width: 1562px;
+    height: 344px;
 
 }
 
@@ -239,7 +250,7 @@ header {
 
 .five li {
     left: 234px;
-    font-family: Noto Sans TC;
+    font-family: "Noto Sans TC";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -250,7 +261,7 @@ header {
 .six {
     border: none;
     background-color: white;
-    width: 1562px;
+    height: 278px;
 
 }
 
@@ -276,7 +287,7 @@ header {
 .seven {
     border: none;
     background-color: white;
-    width: 1562px;
+    height: 146px;
     margin-bottom: 278px;
 
 }
