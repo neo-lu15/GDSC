@@ -15,7 +15,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 3.19%;
+    height: 92.2px;
 }
 
 .logo {
@@ -52,14 +52,13 @@ header {
 .title h2 {
     padding-left: 215px;
     padding-top: 254px;
-    font-family: Noto Sans TC;
+    font-family: "Noto Sans TC";
     font-style: normal;
     font-weight: 500;
     font-size: 64px;
     line-height: 140%;
     color: #0D5060;
     white-space: nowrap;
-    /* 不換行 */
 }
 
 .main {

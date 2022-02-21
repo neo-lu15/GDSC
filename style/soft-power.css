@@ -17,12 +17,12 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 3.19%;
+    height: 92.2px;
 }
 
 .logo {
     padding-left: 30px;
-    left: 3.02%;
+
     cursor: pointer;
 }
 
@@ -46,16 +46,17 @@ header {
     text-decoration: none;
 }
 
+
 .container {
     height: 438px;
+    background-image: url("../主視覺/undraw_in_sync_re_jlqd.svg");
+    background-repeat: no-repeat;
+    background-position: right 0% bottom 0%;
 }
 
-.visual {
-    background-color: white;
-    display: flex;
-}
 
-.visual h2 {
+
+.title h2 {
     padding-left: 179px;
     padding-top: 128px;
     font-family: "Noto Sans TC";
@@ -84,9 +85,6 @@ header {
     grid-template-columns: 1fr 1fr;
     column-gap: 59px;
     align-items: center;
-    text-decoration: none;
-    font-size: 16px;
-    cursor: pointer;
 }
 
 .soft-power {
@@ -104,6 +102,7 @@ header {
     font-weight: normal;
     font-size: 24px;
     color: #000000;
+    text-decoration: none;
 }
 
 .hard-skills {
@@ -113,20 +112,22 @@ header {
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-bottom: 3px solid #47A2B8;
+
 }
 
 .hard-skills a {
+
     font-family: "Roboto";
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     color: #000000;
+    text-decoration: none;
 }
 
 
 
 .detail-container {
-
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     row-gap: 48px;

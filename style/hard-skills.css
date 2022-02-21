@@ -17,12 +17,12 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 3.19%;
+    height: 92.2px;
 }
 
 .logo {
     padding-left: 30px;
-    left: 3.02%;
+
     cursor: pointer;
 }
 
@@ -48,15 +48,14 @@ header {
 
 .container {
     height: 438px;
+    background-image: url("../主視覺/undraw_in_sync_re_jlqd.svg");
+    background-repeat: no-repeat;
+    background-position: right 0% bottom 0%;
 }
 
-.visual {
 
-    background-color: white;
-    display: flex;
-}
 
-.visual h2 {
+.title h2 {
     padding-left: 179px;
     padding-top: 128px;
     font-family: "Noto Sans TC";
@@ -104,6 +103,7 @@ header {
     font-weight: normal;
     font-size: 24px;
     color: #000000;
+    text-decoration: none;
 }
 
 .hard-skills {

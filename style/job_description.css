@@ -14,7 +14,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 72px;
+    height: 92.2px;
 }
 
 .logo {
@@ -92,26 +92,23 @@ header {
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
-
     color: #47A2B8;
+}
 
+.job {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .pic {
-    width: 510px;
-    height: 359px;
-
+    /* background-image: url("../14個職位卡片/介面設計師.svg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-.description {}
 
 
 .description h4 {
-    width: 136px;
-    height: 46px;
-    left: 15px;
-    top: 0px;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -123,11 +120,8 @@ header {
 }
 
 .description h5 {
-    width: 836px;
-    height: 66px;
-    left: 0px;
-    top: 70px;
-    font-family: Noto Sans TC;
+
+    font-family: "Noto Sans TC";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
