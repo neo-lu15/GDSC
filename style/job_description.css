@@ -54,7 +54,7 @@ header {
     border: 1px solid rgba(0, 0, 0, 0.45);
     box-sizing: border-box;
     border-radius: 100px;
-    font-family: Noto Sans TC;
+    font-family: "Noto Sans TC";
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -98,6 +98,7 @@ header {
 .job {
     display: grid;
     grid-template-columns: 1fr 1fr;
+
 }
 
 .pic {
@@ -108,6 +109,7 @@ header {
 
 
 .description h4 {
+    margin-left: 2px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: bold;
@@ -120,7 +122,7 @@ header {
 }
 
 .description h5 {
-
+    margin-left: 2px;
     font-family: "Noto Sans TC";
     font-style: normal;
     font-weight: normal;
@@ -136,53 +138,38 @@ header {
 }
 
 .soft_power {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 12px 36px 0px;
+    text-align: center;
+    height: 64px;
+    border: none;
     background: #FFFFFF;
-    border-bottom-color: #47A2B8;
+    border-bottom: 3px solid #47A2B8;
 }
 
 .soft_power a {
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
-    line-height: 112px;
-    display: flex;
-    align-items: center;
     color: #000000;
-    margin: 8px 0px;
+    text-decoration: none;
 }
 
 .hard_skills {
 
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 12px 36px 0px;
+    text-align: center;
+    height: 64px;
+    border: none;
     background: #FFFFFF;
-    border: #FFFFFF;
-    border-bottom-color: #47A2B8;
+    border-bottom: 3px solid #47A2B8;
 }
 
 .hard_skills a {
-    width: 74px;
-    height: 43px;
-    left: 382px;
-    top: 12px;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
-    line-height: 112px;
-    display: flex;
-    align-items: center;
     color: #000000;
-    margin: 8px 0px;
+    text-decoration: none;
 }
 
 .details {
@@ -192,11 +179,6 @@ header {
     grid-column-gap: 30.98px;
     flex-direction: column;
     align-items: flex-start;
-    padding: 48px;
-    height: 1732px;
-    left: 182px;
-    right: 184px;
-    top: 216px;
 
     background: #FFFFFF;
 }
@@ -211,7 +193,7 @@ header {
 }
 
 .soft1 a {
-    font-family: Noto Sans TC;
+    font-family: "Noto Sans TC";
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -222,7 +204,7 @@ header {
 
 
 .soft1 ul li {
-    font-family: Noto Sans TC;
+    font-family: "Noto Sans TC";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -241,7 +223,7 @@ header {
 }
 
 .hard1 a {
-    font-family: Noto Sans TC;
+    font-family: "Noto Sans TC";
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -252,7 +234,7 @@ header {
 
 
 .hard1 ul li {
-    font-family: Noto Sans TC;
+    font-family: "Noto Sans TC";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -271,7 +253,7 @@ header {
 }
 
 .soft2 a {
-    font-family: Noto Sans TC;
+    font-family: "Noto Sans TC";
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -282,7 +264,7 @@ header {
 
 
 .soft2 ul li {
-    font-family: Noto Sans TC;
+    font-family: "Noto Sans TC";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -301,7 +283,7 @@ header {
 }
 
 .hard2 a {
-    font-family: Noto Sans TC;
+    font-family: "Noto Sans TC";
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -312,7 +294,7 @@ header {
 
 
 .hard2 ul li {
-    font-family: Noto Sans TC;
+    font-family: "Noto Sans TC";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -333,7 +315,7 @@ header {
 }
 
 .soft3 a {
-    font-family: Noto Sans TC;
+    font-family: "Noto Sans TC";
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -344,7 +326,7 @@ header {
 
 
 .soft3 ul li {
-    font-family: Noto Sans TC;
+    font-family: "Noto Sans TC";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -445,6 +427,36 @@ header {
 
 }
 
+.soft5 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 89px rgba(0, 0, 0, 0.04);
+    border-radius: 4px
+}
+
+.soft5 a {
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 112.5%;
+    align-items: center;
+    color: #000000;
+}
+
+
+.soft5 ul li {
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: rgba(0, 0, 0, 0.45);
+
+}
+
 .hard5 {
     display: flex;
     flex-direction: column;
@@ -455,7 +467,7 @@ header {
 }
 
 .hard5 a {
-    font-family: Noto Sans TC;
+    font-family: "Noto Sans TC";
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -466,7 +478,37 @@ header {
 
 
 .hard5 ul li {
-    font-family: Noto Sans TC;
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: rgba(0, 0, 0, 0.45);
+
+}
+
+.soft6 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 89px rgba(0, 0, 0, 0.04);
+    border-radius: 4px
+}
+
+.soft6 a {
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 112.5%;
+    align-items: center;
+    color: #000000;
+}
+
+
+.soft6 ul li {
+    font-family: "Noto Sans TC";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -485,7 +527,7 @@ header {
 }
 
 .hard6 a {
-    font-family: Noto Sans TC;
+    font-family: "Noto Sans TC";
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -496,7 +538,67 @@ header {
 
 
 .hard6 ul li {
-    font-family: Noto Sans TC;
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: rgba(0, 0, 0, 0.45);
+
+}
+
+.soft7 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 89px rgba(0, 0, 0, 0.04);
+    border-radius: 4px
+}
+
+.soft7 a {
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 112.5%;
+    align-items: center;
+    color: #000000;
+}
+
+
+.soft7 ul li {
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: rgba(0, 0, 0, 0.45);
+
+}
+
+.hard7 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 89px rgba(0, 0, 0, 0.04);
+    border-radius: 4px
+}
+
+.hard7 a {
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 112.5%;
+    align-items: center;
+    color: #000000;
+}
+
+
+.hard7 ul li {
+    font-family: "Noto Sans TC";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
