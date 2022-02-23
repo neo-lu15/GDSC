@@ -44,9 +44,16 @@ header {
     text-decoration: none;
 }
 
-.container1 {
-    background-color: #FFFFFF;
+/* .container1 {
+
     height: 798px;
+    background-image: url(主視覺/undraw_in_sync_re_jlqd.svg);
+    background-repeat: no-repeat;
+    background-position: right 0% bottom 0%;
+}
+
+.title {
+    width: 50%;
 }
 
 .title h2 {
@@ -58,7 +65,28 @@ header {
     font-size: 64px;
     line-height: 140%;
     color: #0D5060;
-    white-space: nowrap;
+} */
+.container {
+    background-image: url("../主視覺/undraw_in_sync_re_jlqd.svg");
+    background-repeat: no-repeat;
+    background-position: right 0% bottom 0%;
+}
+
+
+
+.title h2 {
+    padding-left: 100px;
+    padding-top: 128px;
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 112.5%;
+    color: #0D5060;
+}
+
+.title {
+    width: 50%;
 }
 
 .main {
@@ -234,12 +262,13 @@ img {
 }
 
 .footer-container {
-    margin-left: 180px;
-    margin-right: 180px;
+
     height: 236px;
 }
 
 footer {
+    margin-left: 180px;
+    margin-right: 180px;
     background-color: #FFFFFF;
     display: flex;
     flex-direction: row;
@@ -249,16 +278,19 @@ footer {
 .logo2 {
     margin-top: 57px;
     cursor: pointer;
+    padding-right: 10px;
 }
 
 
-.left_footer {
-    margin-top: 57px;
+.left-footer {
+    margin-top: 35px;
     height: 101px;
 
 }
 
-.left_footer p {
+
+
+.left-footer p {
     font-family: "Noto Sans TC";
     font-style: normal;
     font-weight: 500;
@@ -282,6 +314,7 @@ footer {
 
 .right_footer {
     margin-top: 57px;
+    margin-right: 0px;
 }
 
 .right_footer td a {
