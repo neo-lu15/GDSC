@@ -44,13 +44,13 @@ header {
 
 .container {
     background-color: #E5E5E5;
-padding-top: 68px;
+    padding-top: 68px;
     padding-left: 322px;
     padding-right: 322px;
 }
 
 .detail-container1 {
-    
+
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     gap: 1.108%;
@@ -79,4 +79,3 @@ padding-top: 68px;
     line-height: 140%;
     color: black;
 }
-

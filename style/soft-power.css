@@ -211,10 +211,13 @@ header {
 
 
 .footer-container {
+
     height: 236px;
 }
 
 footer {
+    margin-left: 180px;
+    margin-right: 180px;
     background-color: #FFFFFF;
     display: flex;
     flex-direction: row;
@@ -223,54 +226,58 @@ footer {
 
 .logo2 {
     margin-top: 57px;
-    padding-left: 180px;
     cursor: pointer;
+    padding-right: 24px;
 }
 
 
-.left_footer {
-    margin-top: 57px;
+.left-footer {
+    margin-top: 35px;
     height: 101px;
 
 }
 
-.left_footer p {
-    font-family: Noto Sans TC;
+
+
+.left-footer p {
+    font-family: "Noto Sans TC";
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 140%;
-
     display: flex;
     align-items: center;
-
 }
 
-.right_footer th a {
-    margin-bottom: 24px;
+.right_footer {
+
+    margin-top: 48px;
+    margin-left: 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#titles {
     font-family: "Noto Sans TC";
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    line-height: 112.5%;
     display: flex;
+}
+
+#sector {
+    display: grid;
+    grid-template-rows: 1.5fr 1fr 1fr 1fr;
+    padding-right: 120px;
 
 }
 
 
-.right_footer {
-    margin-top: 57px;
-    width: 800px;
-    right: 100px;
-}
-
-.right_footer td a {
-    margin-bottom: 12px;
+#content {
     font-family: "Noto Sans TC";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 112.5%;
     text-decoration: none;
     color: black;
 }

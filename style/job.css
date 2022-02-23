@@ -227,40 +227,76 @@ img {
     color: rgba(0, 0, 0, 0.45);
 }
 
+
+
 .footer-container {
-    display: flex;
-    justify-content: flex-end;
+
+    height: 236px;
 }
 
 footer {
+    margin-left: 180px;
+    margin-right: 180px;
     background-color: #FFFFFF;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10.46%;
 }
 
-.logo {
 
+.logo2 {
+    margin-top: 57px;
     cursor: pointer;
+    padding-right: 24px;
 }
 
-.foot_link {
-    list-style: none;
+
+.left-footer {
+    margin-top: 35px;
+    height: 101px;
+
 }
 
-.foot_link li {
-    display: inline-block;
-    padding: 0px 20px;
+
+
+.left-footer p {
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
 }
 
-.foot_link li a {
+.right_footer {
+
+    margin-top: 48px;
+    margin-left: 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#titles {
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+}
+
+#sector {
+    display: grid;
+    grid-template-rows: 1.5fr 1fr 1fr 1fr;
+    padding-right: 120px;
+
+}
+
+
+#content {
     font-family: "Noto Sans TC";
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    line-height: 140%;
+    font-size: 16px;
     text-decoration: none;
     color: black;
 }

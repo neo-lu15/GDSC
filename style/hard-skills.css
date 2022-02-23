@@ -310,3 +310,75 @@ header {
     line-height: 140%;
     color: rgba(0, 0, 0, 0.45);
 }
+
+.footer-container {
+
+    height: 236px;
+}
+
+footer {
+    margin-left: 180px;
+    margin-right: 180px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.logo2 {
+    margin-top: 57px;
+    cursor: pointer;
+    padding-right: 24px;
+}
+
+
+.left-footer {
+    margin-top: 35px;
+    height: 101px;
+
+}
+
+
+
+.left-footer p {
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+}
+
+.right_footer {
+
+    margin-top: 48px;
+    margin-left: 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#titles {
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+}
+
+#sector {
+    display: grid;
+    grid-template-rows: 1.5fr 1fr 1fr 1fr;
+    padding-right: 120px;
+
+}
+
+
+#content {
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
