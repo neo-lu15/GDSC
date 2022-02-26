@@ -3,8 +3,6 @@
 
 body {
     margin: 0;
-    width: 100%;
-    height: 100%;
 }
 
 header {
@@ -97,7 +95,7 @@ header {
 .column {
 
     display: flex;
-    flex-grow: 1;
+    flex-grow: 0;
     float: left;
     padding: 30px;
 
