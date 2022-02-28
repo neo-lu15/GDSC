@@ -44,6 +44,7 @@ header {
     padding-left: 182px;
     padding-right: 182px;
     background-color: #E5e5e5e5;
+    padding-bottom: 143px;
 }
 
 .tab {
@@ -177,52 +178,6 @@ img {
     gap: 1.108%;
 
 
-}
-
-.one {
-    border: solid black;
-}
-
-.one b {
-
-    font-family: "Noto Sans TC";
-    font-style: normal;
-    font-weight: normal;
-    color: black;
-    font-size: 18px;
-}
-
-.one li {
-    left: 234px;
-    font-family: "Noto Sans TC";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 140%;
-    color: rgba(0, 0, 0, 0.45);
-}
-
-.two {
-    border: solid black;
-
-}
-
-.two b {
-    font-family: "Noto Sans TC";
-    font-style: normal;
-    font-weight: normal;
-    color: black;
-    font-size: 18px;
-}
-
-.two li {
-    left: 234px;
-    font-family: "Noto Sans TC";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 140%;
-    color: rgba(0, 0, 0, 0.45);
 }
 
 
