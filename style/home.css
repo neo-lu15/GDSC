@@ -332,3 +332,12 @@ footer {
     text-decoration: none;
     color: black;
 }
+
+#content:hover {
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-decoration: none;
+    color: #00ccff;
+}
