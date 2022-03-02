@@ -163,6 +163,7 @@ header {
 }
 
 .footer_container {
+
     height: 236px;
 }
 
@@ -185,6 +186,7 @@ footer {
 .left-footer {
     margin-top: 35px;
     height: 101px;
+    min-width: 200px;
 
 }
 
@@ -206,6 +208,7 @@ footer {
     margin-left: 90px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    
 }
 
 #titles {
@@ -214,12 +217,13 @@ footer {
     font-weight: 500;
     font-size: 18px;
     display: flex;
+    min-width: 80px;
 }
 
 #sector {
     display: grid;
     grid-template-rows: 1.5fr 1fr 1fr 1fr;
-    padding-right: 120px;
+    padding-right: 70px;
 
 }
 
@@ -232,7 +236,6 @@ footer {
     text-decoration: none;
     color: black;
 }
-
 #content:hover {
     font-family: "Noto Sans TC";
     font-style: normal;

@@ -280,14 +280,14 @@ header {
 }
 
 .footer_container {
-    background-color: #FFFFFF;
+
     height: 236px;
 }
 
 footer {
     margin-left: 180px;
     margin-right: 180px;
-
+    background-color: #FFFFFF;
     display: flex;
     flex-direction: row;
 }
@@ -303,6 +303,7 @@ footer {
 .left-footer {
     margin-top: 35px;
     height: 101px;
+    min-width: 200px;
 
 }
 
@@ -324,6 +325,7 @@ footer {
     margin-left: 90px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    
 }
 
 #titles {
@@ -332,12 +334,13 @@ footer {
     font-weight: 500;
     font-size: 18px;
     display: flex;
+    min-width: 80px;
 }
 
 #sector {
     display: grid;
     grid-template-rows: 1.5fr 1fr 1fr 1fr;
-    padding-right: 120px;
+    padding-right: 70px;
 
 }
 
