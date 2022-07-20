@@ -25,20 +25,19 @@
         <img class="logo" src="LOGO/LOGO_2.png" width="86px" height="33px">
         <nav>
             <ul class="nav_link">
-                <li><a href="home-page.html">首頁</a></li>
-                <li><a href="self-study.html">自學資源</a></li>
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="other_pages/self-study.html">自學資源</a></li>
             </ul>
         </nav>
     </header>
 
-    <div class="container1">
-        <div class="visual">
-            <div class="title">
-                <h2 style="float: left;"><b>靈活思考、卓越技術</b></h2>
-            </div>
-            <img src="主視覺/undraw_in_sync_re_jlqd.svg" style="float: right;
-            width: 776.68px; height: 508.27px; padding-top: 295px;">
+
+    <div class="container" style="height: 600px;">
+        <div class="title">
+            <h2 style="float: left;"><b>靈活思考、卓越技術</b></h2>
         </div>
+        <!-- <img src="../主視覺/undraw_in_sync_re_jlqd.svg" style="float: right; width: 645px;
+            height: 365px; "> -->
     </div>
 
 
@@ -48,7 +47,7 @@
 
             <div class="pointer">
                 <div class="hover">
-                    <a href="job.html" onmouseover="this.innerHTML='更多 UI/UX 職位&rarr;';"
+                    <a href="other_pages/job.html" onmouseover="this.innerHTML='更多 UI/UX 職位&rarr;';"
                         onmouseout="this.innerHTML='點我看更多 UI/UX 職位';">點我看更多 UI/UX 職位</a>
 
                 </div>
@@ -60,7 +59,7 @@
             <div class="row">
                 <div class="column">
                     <div class="card">
-                        <a href="">
+                        <a href="job_page/UX_research.html">
                             <img src="14個職位卡片/UX Researcher 使用者體驗.svg" alt="Avatar" style="width: 300px;height: 298px;">
                         </a>
                         <div class="container-unhover">
@@ -80,7 +79,7 @@
                 </div>
                 <div class="column">
                     <div class="card">
-                        <a href="">
+                        <a href="job_page/web_UI_designer.html">
                             <img src="14個職位卡片/Web_App UI Designer.svg" alt="Avatar" style="width: 300px;height: 298px;">
                         </a>
                         <div class="container-unhover">
@@ -97,7 +96,7 @@
                 </div>
                 <div class="column">
                     <div class="card">
-                        <a href="">
+                        <a href="job_page/WebApp_PM.html">
                             <img src="14個職位卡片/Web_App PM.svg" alt="Avatar" style="width: 300px;height: 298px;">
                         </a>
                         <div class="container-unhover">
@@ -119,7 +118,7 @@
             <!--pointer-->
             <div class="pointer">
                 <div class="hover">
-                    <a href="soft-power.html" onmouseover="this.innerHTML='更多 UI/UX 技能&rarr;';"
+                    <a href="other_pages/soft-power.html" onmouseover="this.innerHTML='更多 UI/UX 技能&rarr;';"
                         onmouseout="this.innerHTML='更多 UI/UX 技能';"><span id="hov2">更多 UI/UX 技能</span></a>
                 </div>
 
@@ -152,36 +151,30 @@
     <div class="footer_container">
         <footer>
 
-            <img class="logo2" src="LOGO/LOGO_2.png" width="86px" height="33px" style="float: left;">
-            <ul class="left-footer">
-                <p style="float: right; color: black; ">我們是一群對UIUX有興趣的大學生，致力於實際需求</p>
-                <p>與UIUX的結合，減少初學者的學習障礙。</p>
-            </ul>
+            <img class="logo2" src="../LOGO/LOGO_2.png" width="86px" height="33px" style="float: left;">
+            <div class="left-footer" style="float: right; color: black; ">
+                <p>我們是一群對UIUX有興趣的大學生，致力於實際需求
+                    與UIUX的結合，減少初學者的學習障礙。</p>
+            </div>
 
-            <ul class="right_footer">
-                <table>
-                    <tr>
-                        <th width="300"><a>學習指南</a></th>
-                        <th width="300"><a>自學資源</a></th>
-                        <th width="300"><a>About</a></th>
-                    </tr>
-                    <tr>
-                        <td><a href="job.html">依職業</a></td>
-                        <td><a href="self-study.html">靈感啟發</a></td>
-                        <td><a href="">About us</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="job.html">依技能</a></td>
-                        <td><a href="self-study.html">作品集平台</a></td>
-                        <td><a href="">About this web</a></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td><a href="self-study.html">網路專欄</a></td>
-                        <td></td>
-                    </tr>
-                </table>
-            </ul>
+            <div class="right_footer">
+
+                <div id="sector">
+                    <a id="titles">學習指南</a>
+                    <a href="../other_pages/job.html" id="content">依職業</a>
+                    <a href="../other_pages/job.html" id="content">依技能</a>
+                </div>
+                <div id="sector">
+                    <a id="titles">自學資源</a>
+                    <a href="../other_pages/self-study.html" id="content">靈感啟發</a>
+                    <a href="../other_pages/self-study.html" id="content">作品集平台</a>
+                    <a href="../other_pages/self-study.html" id="content">網路專欄</a>
+                </div>
+                <div id="sector">
+                    <a id="titles">About</a>
+                    <a href="" id="content">About us</a>
+                </div>
+            </div>
         </footer>
     </div>
 </body>

@@ -15,7 +15,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 3.19%;
+    height: 92.2px;
 }
 
 .logo {
@@ -44,22 +44,49 @@ header {
     text-decoration: none;
 }
 
-.container1 {
-    background-color: #FFFFFF;
+/* .container1 {
+
     height: 798px;
+    background-image: url(主視覺/undraw_in_sync_re_jlqd.svg);
+    background-repeat: no-repeat;
+    background-position: right 0% bottom 0%;
+}
+
+.title {
+    width: 50%;
 }
 
 .title h2 {
     padding-left: 215px;
     padding-top: 254px;
-    font-family: Noto Sans TC;
+    font-family: "Noto Sans TC";
     font-style: normal;
     font-weight: 500;
     font-size: 64px;
     line-height: 140%;
     color: #0D5060;
-    white-space: nowrap;
-    /* 不換行 */
+} */
+.container {
+    background-image: url("../主視覺/undraw_in_sync_re_jlqd.svg");
+    background-repeat: no-repeat;
+    background-position: right 0% bottom 0%;
+}
+
+
+
+.title h2 {
+    padding-left: 100px;
+    padding-top: 128px;
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 112.5%;
+    color: #0D5060;
+}
+
+.title {
+    width: 50%;
 }
 
 .main {
@@ -234,13 +261,14 @@ img {
     color: rgba(0, 0, 0, 0.45);
 }
 
-.footer-container {
-    margin-left: 180px;
-    margin-right: 180px;
+.footer_container {
+
     height: 236px;
 }
 
 footer {
+    margin-left: 180px;
+    margin-right: 180px;
     background-color: #FFFFFF;
     display: flex;
     flex-direction: row;
@@ -250,16 +278,20 @@ footer {
 .logo2 {
     margin-top: 57px;
     cursor: pointer;
+    padding-right: 24px;
 }
 
 
-.left_footer {
-    margin-top: 57px;
+.left-footer {
+    margin-top: 35px;
     height: 101px;
+    min-width: 200px;
 
 }
 
-.left_footer p {
+
+
+.left-footer p {
     font-family: "Noto Sans TC";
     font-style: normal;
     font-weight: 500;
@@ -269,29 +301,46 @@ footer {
     align-items: center;
 }
 
-.right_footer th a {
-    margin-bottom: 24px;
+.right_footer {
+
+    margin-top: 48px;
+    margin-left: 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+#titles {
     font-family: "Noto Sans TC";
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    line-height: 112.5%;
     display: flex;
+    min-width: 80px;
+}
+
+#sector {
+    display: grid;
+    grid-template-rows: 1.5fr 1fr 1fr 1fr;
+    padding-right: 70px;
 
 }
 
 
-.right_footer {
-    margin-top: 57px;
-}
-
-.right_footer td a {
-    margin-bottom: 12px;
+#content {
     font-family: "Noto Sans TC";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 112.5%;
     text-decoration: none;
     color: black;
+}
+
+#content:hover {
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-decoration: none;
+    color: #00ccff;
 }

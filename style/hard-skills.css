@@ -17,12 +17,12 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 3.19%;
+    height: 92.2px;
 }
 
 .logo {
     padding-left: 30px;
-    left: 3.02%;
+
     cursor: pointer;
 }
 
@@ -47,16 +47,15 @@ header {
 }
 
 .container {
-    height: 438px;
+    height: 455.19px;
+    background-image: url("../主視覺/undraw_in_sync_re_jlqd.svg");
+    background-repeat: no-repeat;
+    background-position: right 0% bottom 0%;
 }
 
-.visual {
 
-    background-color: white;
-    display: flex;
-}
 
-.visual h2 {
+.title h2 {
     padding-left: 179px;
     padding-top: 128px;
     font-family: "Noto Sans TC";
@@ -104,6 +103,7 @@ header {
     font-weight: normal;
     font-size: 24px;
     color: #000000;
+    text-decoration: none;
 }
 
 .hard-skills {
@@ -309,4 +309,79 @@ header {
     font-size: 16px;
     line-height: 140%;
     color: rgba(0, 0, 0, 0.45);
+}
+
+.footer_container {
+
+    height: 236px;
+}
+
+footer {
+    margin-left: 180px;
+    margin-right: 180px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.logo2 {
+    margin-top: 57px;
+    cursor: pointer;
+    padding-right: 24px;
+}
+
+
+.left-footer {
+    margin-top: 35px;
+    height: 101px;
+    min-width: 200px;
+
+}
+
+
+
+.left-footer p {
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+}
+
+.right_footer {
+
+    margin-top: 48px;
+    margin-left: 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+#titles {
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    min-width: 80px;
+}
+
+#sector {
+    display: grid;
+    grid-template-rows: 1.5fr 1fr 1fr 1fr;
+    padding-right: 70px;
+
+}
+
+
+#content {
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
 }
